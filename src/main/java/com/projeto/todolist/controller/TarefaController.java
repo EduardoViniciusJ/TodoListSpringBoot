@@ -39,7 +39,7 @@ public class TarefaController {
 	    }
 	 
 	 
-	 @PostMapping
+	 @PostMapping("/{id}")
 	    public Tarefa criar(@RequestBody Tarefa tarefa) {
 	        return repository.save(tarefa);
 	    }
