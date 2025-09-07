@@ -17,7 +17,7 @@ import com.projeto.todolist.repository.TarefaRepository;
 
 
 @RestController
-@RequestMapping
+@RequestMapping("/tarefas")
 public class TarefaController { 
 	
 	private final TarefaRepository repository;
